@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* .info-wrapper{
+    display: grid;
+} */
+
+/* ///////////////////////////////////////// */
+/* ======= Left column [first sector]======= */
+/* ///////////////////////////////////////// */
+
+.info-wrapper{
+    display: grid;  
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px; 
+}
+
+.text-wrapper{ 
+    display: flex;  
+    flex-direction: column;
+}
+
+.modular{
+    width: 28.75rem;
+    height: auto;
+}
+
+.modular>h4{
+    font-size: 1.046rem;
+    line-height: 1.75rem;
+    letter-spacing: 0.013rem;
+    font-weight: 500;
+    color: #635BFF;
+
+}
+
+.text-wrapper>h2{
+    font-size: 3.227rem;
+    line-height: 4.25rem;
+    font-weight: 700;
+    color: #0A2540;
+}
+
+.text-wrapper>p{
+    font-size: 1.099rem;
+    line-height: 1.75rem;
+    font-weight: 700;
+    color: #0A2540;
+}
+
+/* ///////////////////////////////////////// */
+/* =======Right column [first sector]======= */
+/* ///////////////////////////////////////// */
+
+/* .card-wrapper{
+    display: grid;
+    position: relative;
+}
+
+.card-wrapper > div{
+    display: grid;
+    justify-content: flex-end;
+    position: absolute;
+
+
+}
+
+.card-wrapper>div>img{
+    margin-top: 28.33px;
+    margin-right: 28.51px;
+}
+
+.first-card{
+    width: 349px;
+    height: 215.26px;
+    border-radius: 14px;
+    background-color: #000000;
+
+}
+
+.second-card{
+    width: 349px;
+    height: 215.26px;
+    border-radius: 14px;
+    background-color: #27BB86;
+    top: 93px;
+}
+
+.front-card{
+    width: 349px;
+    height: 215.26px;
+    border-radius: 14px;
+    background-color: #ffffff;
+    top: 186px;
+}
+
+.front-card :nth-child(2){
+    position: absolute;
+    left: 27.83px;
+    top: 176.83px;
+}
+
+.front-card :last-child{
+    position: absolute;
+    left: 256.8px;
+    top: 172.2px;
+} */
+
+
+  /* ///////////////////////////////////////// */
+/* =======cards easy style [first sector]======= */
+  /* ///////////////////////////////////////// */
+
+  .card-wrapper{
+    display: grid;
+    position: relative;
+  }
+
+.card-wrapper>div{
+    display: grid; 
+    width: 349px;
+    height: 215.26px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+
+.card-wrapper>div:first-child{
+    background-image: url(/first_sector/cards_easy_version/first_card.png);
+}
+
+.card-wrapper>div:nth-child(2){
+    background-image: url(/first_sector/cards_easy_version/second_card.png);
+    top: 93px;
+}
+
+.card-wrapper>div:last-child{
+    background-image: url(/first_sector/cards_easy_version/front_card.png);
+    top: 186px;
+}
