@@ -4,9 +4,9 @@
 }
 
 
-.info-wrapper{
+/* .info-wrapper{
     display: grid;
-}
+} */
 
 /* ///////////////////////////////////////// */
 /* ======= Left column [first sector]======= */
@@ -61,54 +61,55 @@
 ///////////// first card ////////////////
 ////////////////////////////////////// */
 
-.card-1-assembled{  
-    width: 349px;  
-    height: 215.26px;  
-    border-radius: 14px;  
-    position: relative;  
-    background-color: #000000;  
-    box-shadow: -2px 2px 73px -14px;  
-    margin-bottom: 20px;  
-}  
+.card-1-assembled{
+    width: 349px;
+    height: 215.26px;
+    border-radius: 14px;
+    position: relative;
+    background-color: #000000;
+    box-shadow: -2px 2px 73px -14px;
+    margin-bottom: 20px;
+}
 
-.card-1-assembled .kavholm {  
-    position: absolute;  
-    right: 0;  
-    margin-right: 23px;  
-    margin-top: 27px;  
-    color: #fff;  
-    font-family: sans-serif;  
-    letter-spacing: .8px;  
-    font-size: 18px;  
-}  
+.card-1-assembled .kavholm {
+    position: absolute;
+    right: 0;
+    margin-right: 23px;
+    margin-top: 27px;
+    color: #fff;
+    font-family: sans-serif;
+    letter-spacing: .8px;
+    font-size: 18px;
+}
 
-.card-1-assembled .visa-balls {  
-    position: absolute;  
-    bottom: 16.3px;  
-    right: 13.5px;  
-}  
+.card-1-assembled .visa-balls {
+    position: absolute;
+    bottom: 16.3px;
+    right: 13.5px;
+}
 
-.card-1-assembled .commercial {  
-    position: absolute;  
-    font-family: sans-serif;  
-    font-weight: 700;  
-    letter-spacing: 0.4px;  
-    bottom: 74px;  
-    right: 14px;  
-    color: #fff;  
-    font-size: 12px;  
-}  
+.card-1-assembled .commercial {
+    position: absolute;
+    font-family: sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    bottom: 74px;
+    right: 14px;
+    color: #fff;
+    font-size: 12px;
+}
 
-.card-1-assembled .jane-diaz{  
-    position: absolute;  
-    font-family: 'DM Sans';  
-    font-weight: 500;  
-    letter-spacing: 0.1px;  
-    bottom: 26px;  
-    left: 28px;  
-    color: #fff;  
-    font-size: 12px;  
-}  
+.card-1-assembled .jane-diaz{
+    position: absolute;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    letter-spacing: 0.1px;
+    bottom: 26px;
+    left: 28px;
+    color: #fff;
+    font-size: 12px;
+}
+
 
 .kavholm::before,  
 .kavholm::after,  
@@ -116,7 +117,7 @@
 .commercial::after,  
 .jane-diaz::before,  
 .jane-diaz::after {  
-    content: '';  
+    content: ' ';  
     position: absolute;  
     left: 0;  
     right: 0;  
@@ -128,8 +129,7 @@
 .commercial::before,  
 .jane-diaz::before {  
     background: #000000;  
-    animation: typing-text 1s steps(10) forwards,  
-               typing-text-loop 1s steps(10) infinite 5s; 
+    animation: typing-text 3s steps(10) infinite;  
 }  
 
 .kavholm::after,  
@@ -137,13 +137,9 @@
 .jane-diaz::after {  
     width: 1px;  
     background: white;  
-        animation:  
-        typing-text 1s steps(10) forwards,  
-        writing 900ms steps(10) forwards; 
-        /* typing-text-loop 1s steps(10) infinite 5s, 
-        writing-loop 900ms steps(10) infinite 5s;  */
-        animation-delay: typing-text-loop infinite 5s, 
-        writing-loop 1s steps(10) infinite 5s;
+    animation:   
+        typing-text 3s steps(10) infinite,  
+        writing 900ms steps(10) infinite; 
 }  
 
 @keyframes typing-text{  
@@ -153,32 +149,13 @@
 }  
 
 @keyframes writing {  
-    0%, 99%{  
+    0% ,99.9%{  
         background: white;  
     }  
-
-    100%{  
-        background: transparent;  
-    }  
+    100%{
+        background: transparent;
+    }
 }  
-
-@keyframes typing-text-loop {  
-  0%{  
-      left: 0;  
-  }  
-    to{  
-        left: 100%;  
-    }  
-}  
-
-@keyframes writing-loop {  
-    0%, 99%{  
-      background: white;  
-    }  
-      100%{  
-          background: transparent;  
-    }  
-  }  
 
 /* //////////////////////////////////////
 /////////////second card ////////////////
