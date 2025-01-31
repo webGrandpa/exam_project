@@ -22,7 +22,7 @@
     display: flex;  
     flex-direction: column;
     max-width: 33.75rem;
-    margin-left: 20.25rem;
+    margin-left: 12.5rem;
 }
 
 .modular{
@@ -124,17 +124,12 @@
     top: 0;  
     bottom: 0;  
 }  
-
-.kavholm::before,  
-.commercial::before,  
-.jane-diaz::before {  
+.frame-text::before {  
     background: #000000;  
     animation: typing-text 3s steps(10) infinite;  
 }  
 
-.kavholm::after,  
-.commercial::after,  
-.jane-diaz::after {  
+.frame-text::after {  
     width: 1px;  
     background: white;  
     animation:   
@@ -216,7 +211,7 @@
   }  
   
   .wave {  
-    background: url(/cards/card-media/wave.png) repeat-x;   
+    background: url(/cards/wave.png) repeat-x;   
     position: absolute;  
     width: 6400px;  
     height: 198px;  
@@ -326,10 +321,10 @@
     top: -29px;
     left: -29px;
     border-radius: 42% 56%72%28% / 42% 42% 56% 48%;
-    background-color: #bfefd7d2;
+    background-color: #93d0b2af;
     background-size: cover;
     background-position: center;
-    animation: morph 3.75s linear infinite;
+    animation: morph 2.75s linear infinite;
 }
 
 .ball-1 {  
