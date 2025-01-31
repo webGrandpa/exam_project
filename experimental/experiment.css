@@ -27,8 +27,12 @@ body{
 .card-1-assembled .kavholm {
     position: absolute;
     right: 0;
-    margin-right: 28px;
+    margin-right: 23px;
     margin-top: 27px;
+    color: #fff;
+    font-family: sans-serif;
+    letter-spacing: .8px;
+    font-size: 18px;
 }
 
 .card-1-assembled .visa-balls {
@@ -43,7 +47,7 @@ body{
     font-weight: 700;
     letter-spacing: 0.4px;
     bottom: 74px;
-    right: 12px;
+    right: 14px;
     color: #fff;
     font-size: 12px;
 }
@@ -58,3 +62,51 @@ body{
     color: #fff;
     font-size: 12px;
 }
+
+
+.kavholm::before,  
+.kavholm::after,  
+.commercial::before,  
+.commercial::after,  
+.jane-diaz::before,  
+.jane-diaz::after {  
+    content: ' ';  
+    position: absolute;  
+    left: 0;  
+    right: 0;  
+    top: 0;  
+    bottom: 0;  
+}  
+
+.kavholm::before,  
+.commercial::before,  
+.jane-diaz::before {  
+    background: #000000;  
+    animation: typing-text 1s steps(10) forwards;  
+}  
+
+.kavholm::after,  
+.commercial::after,  
+.jane-diaz::after {  
+    width: 1px;  
+    background: white;  
+    animation:   
+        typing-text 1s steps(10) forwards,  
+        writing 900ms steps(10) forwards; 
+        animation-fill-mode: forwards; 
+}  
+
+@keyframes typing-text{  
+    to{  
+        left: 100%;  
+    }  
+}  
+
+@keyframes writing {  
+    0% ,99.9%{  
+        background: white;  
+    }  
+    100%{
+        background: transparent;
+    }
+}  
