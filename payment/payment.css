@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.payment-container{
+    position: relative;
+    width: 331px;
+    height: 516.74px;
+    border: 1.19px solid #C4CCD8;
+    background: radial-gradient(#00000000, #cbd6e036);
+    background-color: #fff;
+    border-radius: 9.53px;
+}
+
+.payment-sms1{
+    position: relative;
+    overflow: hidden;
+    width: 290.52px;
+    height: 73.82px;
+    left: 21px;
+    top: 17px;
+    background-color: #fff;
+    z-index: 2;
+    border-radius: 9.53px;
+    box-shadow: 0px 3.57Px 8.33px -3.57px;
+}
+
+.back-payment-sms{
+    width: 261.47px;
+    position: absolute;
+    height: 66.44px;
+    top: 31px;
+    opacity: 80%;
+    border: 1px;
+    border-radius: 9.53px;
+    box-shadow: 0px 3.57Px 8.33px -3.57px;
+    left: 33px;
+    z-index: 1;
+}
+
+.sms-num{
+    position: absolute;
+    left: 13px;
+    top: 13px;
+    font-size: 13.84px;
+    font-weight: 500;
+    line-height: 14.29px;
+    letter-spacing: 0.23px;
+    color: #3f4b66;
+}
+
+.name-from {
+    position: absolute;
+    left: 65px;
+    top: 13px;
+    font-size: 12.95px;
+    font-weight: 500;
+    line-height: 14.29px;
+    letter-spacing: 0.23px;
+    color: #727F96;
+}
+
+.processing-border{
+    position: absolute;
+    left: 18px;
+    top: 42px;
+    width: 69.06px;
+    height: 23.81px;
+    border: 1px;
+    border-radius: 4.76px;
+    background: #15BE534D;
+}
+
+.processing{
+    position: absolute;
+    bottom: 6px;
+    left: 14px;
+    font-size: 8.93px;
+    font-weight: 500;
+    line-height: 14.29px;
+    letter-spacing: 0.23px;
+    color: #0A2540;
+}
+
+.payment-value{
+    position: absolute;
+    right: 14px;
+    top: 28px;
+    font-size: 15.76px;
+    font-weight: 500;
+    line-height: 14.29px;
+    color: #3F4B66;
+}
+
+
+.payment-body{
+    position: relative;
+}
+
+.body-positions{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+.buyers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 11905.28px;
+    background: #0073E6;
+    color: #fff;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 13.39px;
+    line-height: 23.81px;
+    letter-spacing: 0.15px;
+    margin-top: 55.27px;
+    margin-bottom: 9.52px;
+    padding: 2.29px 26.9px;
+    outline: 2px dashed lightgrey;
+    outline-offset: 2px;
+}
+
+.sellers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2.29px 10.8px;
+    border-radius: 11905.28px;
+    background: #0CC2FF;
+    margin-top: 6.76px;
+    color: #fff;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 13.17px;
+    line-height: 23.81px;
+    letter-spacing: 0.15px;
+    outline: 2px dashed lightgrey;
+    outline-offset: 2px;
+}
+
+.platform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2.29px 23.15px;
+    border-radius: 11905.28px;
+    background: #3DC9C9;
+    margin-bottom: 14.14px;
+    margin-top: 3.57px;
+    color: #fff;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 12.95px;
+    line-height: 23.81px;
+    letter-spacing: 0.15px;
+    outline: 2px dashed lightgrey;
+    outline-offset: 2px;
+}
+
+.payment145{
+    padding: 3.57px 14.29px 4.76px 14.29px;
+    background: #fff;
+    box-shadow: 0px 4.52px 8.93px -4.41px;
+    border-radius: 11905.28px;
+    position: absolute;
+    bottom: 78px;
+}
+
+.payment45{
+    padding: 3.57px 14.29px 4.76px 14.29px;
+    background: #fff;
+    box-shadow: 0px 4.52px 8.93px -4.41px;
+    border-radius: 11905.28px;
+    position: absolute;
+    right: 26px;
+    bottom: 156px;
+}
+
