@@ -4,11 +4,117 @@
 }
 
 body{
-    display: flex;
+    width: 120rem;  
+    height: 100%;  
+    display: flex;  
+    align-items: center;  
     justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100vh;
+}
+
+.sector-2{
+    display: flex;  
+    flex-direction: row;  
+    gap: 9.9375rem;  
+}
+
+.text-wrapper-sector2{
+    margin-top: 13.2188rem;
+    max-width: 33.75rem;
+    max-height: 29.8125rem;
+}
+
+.sector2h2{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 35.77px;
+    line-height: 48px;
+    letter-spacing: 0.2px;
+    color: #0A2540;
+    margin-top: 1rem;
+}
+
+.sector2p{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16.59px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #425466;
+    margin-top: 1.5rem;
+}
+
+.sector2-arrow{
+    position: absolute;
+    top: 10px;
+    right: 17px;
+}
+
+.sector2-btn{
+    position: relative;
+    padding: 3px 26.8px 6px 16px;
+    background: #635BFF;
+    border: 1px;
+    border-radius: 16.5px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 13,48px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #fff;
+    margin-top: 1.6875rem;
+}
+
+.sector2-links-header{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 14.18px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #0A2540;
+    margin-top: 3.5rem;
+}
+
+.sector2-links-1{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 13.71px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #0A2540;
+margin-top: 0.5rem;
+
+}
+
+.sector2-links-1 > a{
+    text-decoration: none;
+}
+
+.sector2-links-2{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 13.71px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #0A2540;
+    margin-top: 0.25rem;
+}
+
+.sector2-links-2 > a{
+    text-decoration: none;
+}
+
+.sector2-links-3{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 13.71px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #0A2540;
+    margin-top: 0.25rem;
+}
+
+.sector2-links-3 > a{
+    text-decoration: none;
 }
 
 .payment-container{
@@ -19,6 +125,7 @@ body{
     background: radial-gradient(#00000000, #cbd6e036);
     background-color: #fff;
     border-radius: 9.53px;
+    margin-top: 8.8663rem;
 }
 
 .payment-sms1{
